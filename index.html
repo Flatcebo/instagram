@@ -1,83 +1,114 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato"
+        rel="stylesheet" type="text/css">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
 
+        <div id="top">
             <img src ="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
-
             <input type = "search" value="검색"/>
-            
-    <div id="profile">
-        <img src ="image/profile.jpg"
-            width="50px"/>
-        <div>
-            <h2>half_bottle</h2>
-            <button>프로필 편집</button>
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
+        </div>
+            <div></div>
+        <div id="profile">
+            <div id="profile_pic">
+                <img src ="image/profile.jpg"
+                class="circle_pic"/
+                width="50px">
+        </div>
+        <div id="profile_info">
+            <div id="id">
+                <span>flat_cebo</span>
+                <i class="fas fa-cog"></i>
+            </div>
+            <button> 프로필 편집 
+            </button>
         </div>
     </div>
     <div>
         <p>
-                 <strong>
-                    반병현 (Byunghyun Ban)
+                 <strong id ="userInfo"> flatcebo (FlatCebo)
                  </strong><br/>
-                작가
+                <span id ="summary">Musician</span>
             </p>
-            <p>
-                <a href="https://needleworm.github.io">
-                 needleworm.github.io
+            <p id ="profileDetail">
+                <a href="https://flatcebo.github.io">
+                    flatcebo.github.io
                 </a>
             </p>
     </div>
-        <p>
-    <div>
+ <p>    
+    <div id="highlight_area">
         <div class="highlight">
-            <div>
-                <img src ="image/hl 1.jpg"
-                height="35px"/>
+            <div class="highlight_pic">
+                <img class="circle_pic" src ="image/hl 1.jpg" width="50px" />
             </div>
             <div>
                 😂
             </div>
         </div>
             <div class="highlight">
-                <div>
-                    <img src ="image/hl 2.jpg"            
-                height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src ="image/hl 2.jpg" width="50px" />                       
                 </div>
-                <div>
-                    ❤❤
-                </div>
+            <div>
+                ❤❤
             </div>
-        </div> 
-        </p> 
-    <div>
-        <div>
-                게시물<br/>
-                133
-            </div>
-        <div>
-                팔로워<br/>
-                408
-            </div>
-        <div> 
-                팔로우<br/>
-                189
-            </div>
+            <div></div>
         </div>
+    </div> 
+</p>         
+    <div id="star_bar">
+        <div class="stat">
+            게시물<br/>
+            133
+        </div>
+        <div class="stat">
+            팔로워<br/>
+            408
+        </div>
+        <div class="stat"> 
+            팔로우<br/>
+            189
+        </div>
+    </div>
         <p>
-        <div>아이콘이 들어갈 자리</div>
-        <div>
-            <img src = "thumbnails/DJI_0024.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0025.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0026.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0027.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0028.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0029.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0030.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0031.JPG" width="32%"/>
-            <img src = "thumbnails/DJI_0032.JPG" width="32%"/>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i></div>
+                <div><i class="fas fa-film"></i></div>
+                <div><i class="far fa-play-circle"></i></div>
+                <div><i class="far fa-bookmark"></i></div>
+                <div><i class="fas fa-user-tag"></i></div>
+            </div>
         </div>
+    <div>
+        <div class="thumbnail_grid">
+            <img src = "thumbnails/DJI_0024.JPG" class="thumbnail"/>
+            <img src = "thumbnails/DJI_0025.JPG" class="thumbnail"/>
+            <img src = "thumbnails/DJI_0026.JPG" class="thumbnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src = "thumbnails/DJI_0027.JPG" class="thumbnail"/>
+            <img src = "thumbnails/DJI_0028.JPG" class="thumbnail"/>
+            <img src = "thumbnails/DJI_0029.JPG" class="thumbnail"/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src = "thumbnails/DJI_0030.JPG" class="thumbnail"/>
+            <img src = "thumbnails/DJI_0031.JPG" class="thumbnail"/>
+            <img src = "thumbnails/DJI_0032.JPG" class="thumbnail"/>
+        </div>        
+    </div>
     </p>
     </body>
 </html>
